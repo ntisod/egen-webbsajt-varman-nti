@@ -1,0 +1,249 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: grid;
+  margin: 0;
+
+
+}
+header{
+  background: url('bilder/ani-bild7.jpg') no-repeat 0 ;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+
+}
+
+h2{
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+}
+
+
+.container{
+  margin-left: 450px;
+  margin-top: 250px;
+  width: 40rem;
+  height: 20rem;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  position: relative;
+  background: inherit;
+  overflow: hidden;
+  border-radius: 5px;
+  z-index: 1;
+
+}
+
+
+.container:before{
+  content: '';
+  position: absolute;
+  background: inherit;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  box-shadow: inset 0 0 2000px rgba(255,255,255, .5);
+  filter: blur(8px);
+  z-index: -1;
+}
+
+.navbar{
+  margin-left: 350px;
+  margin-right: 200px;
+  padding-right: 170px;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  z-index: 2;
+  border-radius:10px;
+
+
+}
+
+.navbar a{
+  margin-left: 150px;
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  padding: 14px;
+  text-decoration: none;
+  opacity:10;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  background: rgba(255,255,255,0);
+  border-radius: 5px;
+}
+.navbar a:hover {
+  color: #124a58;
+  background: rgba(255,255,255,0.9);
+  font-weight: bold;
+}
+.logo img{
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+
+.title h1{
+  color:  #124a58	;
+  text-align: center;
+  margin-top: 100px;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 600;
+}
+.links{
+  margin-left: 200px;
+
+
+}
+
+.links a{
+  font-weight: bold;
+  color: #fff;
+  padding-left: 20px;
+  margin-left: 20px;
+  text-decoration: none;
+  padding: 10px;
+  text-transform: uppercase;
+  color: black;
+  letter-spacing: 1px;
+  overflow:hidden;
+  cursor:pointer;
+
+
+
+}
+.links a:hover{
+	-webkit-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+       -moz-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+        -ms-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+         -o-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+            transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+            color:rgba(255,255,255,0.8);
+             -webkit-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+             -moz-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+             box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+
+}
+
+#middle{
+  background-color: #435a6b;
+  text-align: center;
+  height: 80vh;
+
+}
+.container2{
+  font-size: 17px;
+  color: #fff;
+  padding-top: 5px;
+  padding-bottom: 90px;
+  margin-right: 25%;
+  margin-left: 25%;
+  background-color: #2e3e4a;
+  width: 80%;
+  margin: auto;
+}
+.container2 h1{
+  font-weight: bold;
+  font-size: 40px;
+}
+.container2 img{
+  width: 250px;
+  height: 250px;;
+}
+
+
+
+#boxex{
+  background-color: #435a6b;
+  height: 80vh;
+}
+#boxex .last{
+  background-color: #212d35;
+  height: 79vh;
+  padding-top: 5px;
+  text-align: center;
+  width: 88%;
+  margin: auto;
+}
+
+#boxex .box1
+{
+    background: url("bilder/spel.jpg")no-repeat;
+    background-size: 450px;
+    width: 20rem;
+    height: 15rem;
+    float: left;
+    margin-left: 150px;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+    position: absolute;
+
+
+}
+
+
+
+#boxex .box2
+{
+    background: url("bilder/film.jpg") no-repeat;
+    background-size: 450px;
+    width: 20rem;
+    height: 15rem;
+    float: left;
+    margin-left: 510px;
+    box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+    position: absolute;
+
+
+}
+#boxex .box3
+{
+  background: url("bilder/piano.jpg")no-repeat;
+  background-size: 450px;
+  width: 20rem;
+  height: 15rem;
+  float: left;
+  margin-left: 870px;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  position: absolute;
+
+}
+
+
+
+#boxex .button{
+  font-weight: bold;
+
+  border: 2px solid #fff;
+  border-radius: 2px;
+  padding: 10px 20px;
+  right: 125px;
+  position: absolute;
+  bottom: 20px;
+  display: inline-block;
+  color: #f2f2f2;
+  text-decoration: none;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+  background: rgba(255,255,255,0);
+  border-radius: 5px;
+}
+
+.button:hover{
+  color: red;
+  background: rgba(255,255,255,0.9);
+}
+
+
+#boxex p{
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: 1px 1px 2px black, 0 0 1em #124a58, 0 0 0.2em #124a58;
+}
+#boxex h3
+{
+  text-shadow: 1px 1px 2px black, 0 0 1em black, 0 0 0.2em white;
+}
