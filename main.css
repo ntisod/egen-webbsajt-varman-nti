@@ -9,8 +9,9 @@ body{
 header{
   background: url('bilder/ani-bild7.jpg') no-repeat 0 ;
   background-size: cover;
+
   background-attachment: fixed;
-  height: 100vh;
+  height: 50em;
 
 
 
@@ -29,8 +30,9 @@ h2{
 
 
 .container{
-  margin-left: 450px;
-  margin-top: 250px;
+  position: absolute;
+  top: 25%;
+  left: 25%;
   width: 40rem;
   height: 20rem;
   box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
@@ -124,15 +126,9 @@ h2{
 
 }
 .links a:hover{
-	-webkit-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
-       -moz-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
-        -ms-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
-         -o-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
-            transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
-            color:rgba(255,255,255,0.8);
-             -webkit-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
-             -moz-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
-             box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
+  -webkit-transition:all 0.7s cubic-bezier(.75,.06,.27,.98);
+  color:rgba(255,255,255,0.8);
+  -webkit-box-shadow:inset 0px -3px 0px rgba(255,255,255,0.8),inset 0px 400px 0px #435a6b;
 
 }
 
