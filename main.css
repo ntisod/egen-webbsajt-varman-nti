@@ -3,8 +3,6 @@ body{
   padding: 0;
   display: grid;
   margin: 0;
-
-
 }
 header{
   background: url('bilder/ani-bild7.jpg') no-repeat 0 ;
@@ -12,9 +10,6 @@ header{
 
   background-attachment: fixed;
   height: 50em;
-
-
-
 }
 header button{
   padding: 0;
@@ -186,8 +181,6 @@ h2{
 
 
 }
-
-
 
 #boxex .box2
 {
