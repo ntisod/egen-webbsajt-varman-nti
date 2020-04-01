@@ -1,23 +1,53 @@
-h1{
-margin-bottom: 10px;
-margin-left: 10px
-}
-table{
-  margin-left: 10px;
-}
-.mini{
-  border-style: solid;
-  height: 220px;
-  width: 200px;
+*{
+  margin:0;
+  padding:0;
 }
 
 input[type="button"]
 {
-width:100%
+width: 80px;
+height: 80px;
+font-size: 25px;
+background-color: lightgray;
+margin: 4px;
+
+}
+.fälten{
+    width: 335px;
+    height: 80px;
+    margin: 5px;
+    font-size:30px ;
+    padding: 5px;
+}
+.main{
+    background-image: linear-gradient(to top, #d1936b, #d6a169, #d7b069, #d4c06c, #ced174, #c7da75, #bde379, #b1ec7f, #a3f07b, #91f479, #7cf778, #5ffb79);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
 }
 
-input[type="text"]
-{
-
-width:100%
+.knapp {
+	box-shadow:inset 0px 1px 0px 0px #bbdaf7;
+	background:linear-gradient(to bottom, #79bbff 5%, #378de5 100%);
+	background-color:#79bbff;
+	border-radius:6px;
+	border:1px solid #84bbf3;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #528ecc;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #378de5 5%, #79bbff 100%);
+	background-color:#378de5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
 }

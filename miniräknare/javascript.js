@@ -1,21 +1,16 @@
-function visa(val)
-{
-   document.getElementById("fält").value+=val
+function fält(num){
+    document.form.textview.value = document.form.textview.value+num
 }
-function tabort(val)
-{
-   document.getElementById("fält").value(txt.value().slice(0, -1));
-
+function blir(){
+    var result = document.form.textview.value;
+    if(result){
+        document.form.textview.value = eval(result)
+    }
 }
-function räkna()
-{
-    let x = document.getElementById("fält").value
-    let y = eval(x)
-    document.getElementById("fält").value = y
+function ränsa(){
+    document.form.textview.value ="";
 }
-
-//function that clear the display
-function ränsa()
-{
-    document.getElementById("fält").value = ""
+function tabort(){
+    var result = document.form.textview.value;
+    document.form.textview.value = result.substring(0,result.length-1)
 }

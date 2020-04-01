@@ -1,49 +1,51 @@
-<html>
-   <head>
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>miniräknare</title>
     <link rel="stylesheet" href="main.css">
     <script src="javascript.js"></script>
 
-   </head>
+  </head>
+    <body>
+    <div class="main">
+        <form name="form">
+            <input class="fälten" name="textview">
+        </form>
+        <table>
+            <tr>
+                <td><input type="button" class="knapp" value="←" onclick="tabort()"></td>
+                <td><input type="button" class="knapp" value="C" onclick="ränsa()"></td>
+                <td><input type="button" class="knapp" value="*" onclick="fält('*')"></td>
+                <td><input type="button" class="knapp" value="/" onclick="fält('/')"></td>
 
-   <body>
-     <div class="mini" >
-       <h1>Miniräknare</h1>
-       <table border="1">
-          <tr>
-             <td colspan="5"><input type="text" id="fält"/></td>
 
-          </tr>
-          <tr>
+            </tr>
+            <tr>
+                <td><input type="button" class="knapp" value="7" onclick="fält(7)"></td>
+                <td><input type="button" class="knapp" value="8" onclick="fält(8)"></td>
+                <td><input type="button" class="knapp" value="9" onclick="fält(9)"></td>
+                <td><input type="button" class="knapp" value="-" onclick="fält('-')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="knapp" value="4" onclick="fält(4)"></td>
+                <td><input type="button" class="knapp" value="5" onclick="fält(5)"></td>
+                <td><input type="button" class="knapp" value="6" onclick="fält(6)"></td>
+                <td><input type="button" class="knapp" value="+" onclick="fält('+')"></td>
+            </tr>
+            <tr>
+                <td><input type="button" class="knapp" value="1" onclick="fält(1)"></td>
+                <td><input type="button" class="knapp" value="2" onclick="fält(2)"></td>
+                <td><input type="button" class="knapp" value="3" onclick="fält(3)"></td>
+                <td rowspan="5"><input type="button" class="knapp" style="height: 170px;" value="=" onclick="blir()"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="button" class="knapp" style="width:170px;" value="0" onclick="fält(0)"></td>
+                <td><input type="button" value="." class="knapp" onclick="fält('.')"></td>
+            </tr>
+        </table>
 
-             <td><input type="button" value="7" onclick="visa('7')"/> </td>
-             <td><input type="button" value="8" onclick="visa('8')"/> </td>
-             <td><input type="button" value="9" onclick="visa('9')"/> </td>
-             <td><input type="button" value="+" onclick="visa('+')"/> </td>
-             <td><input type="button" onclick="tabort('')" value="<-"></td>
+    </div>
 
-          </tr>
-          <tr>
-             <td><input type="button" value="4" onclick="visa('4')"/> </td>
-             <td><input type="button" value="5" onclick="visa('5')"/> </td>
-             <td><input type="button" value="6" onclick="visa('6')"/> </td>
-             <td><input type="button" value="-" onclick="visa('-')"/> </td>
-          </tr>
-          <tr>
-             <td><input type="button" value="1" onclick="visa('1')"/> </td>
-             <td><input type="button" value="2" onclick="visa('2')"/> </td>
-             <td><input type="button" value="3" onclick="visa('3')"/> </td>
-             <td><input type="button" value="*" onclick="visa('*')"/> </td>
-             <td><input type="button" value="c" onclick="ränsa()"/> </td>
-
-          </tr>
-          <tr>
-             <td colspan="2"><input type="button" value="0" onclick="visa('0')"/> </td>
-             <td><input type="button" value="." onclick="visa('.')"/> </td>
-             <td><input type="button" value="/" onclick="visa(/)"/> </td>
-             <td><input type="button" value="=" onclick="räkna('=')"/> </td>
-          </tr>
-       </table>
-     </div>
-
-   </body>
+</body>
 </html>
