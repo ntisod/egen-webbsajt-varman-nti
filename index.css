@@ -195,6 +195,34 @@ h3{
 
 .margin {margin-bottom: 45px;}
 
+
+.bg-4 img{
+  width: 250px;
+  height: 250px;
+}
+.lada{
+  width:80%;
+  margin: 0 auto;
+}
+.lada-text img{
+  float: left;
+
+}
+.skrt{
+  margin-left: 50px;
+  text-align:right;
+  margin-left: 100px;
+
+}
+.lada-text-hoger img{
+  float: right;
+}
+.lada-text-hoger{
+  margin-top: 25%;
+  margin-bottom: 25%;
+
+}
+
 .bg-2 {
   background: url('bilder/mountain.jpg');
   min-height: 200px;
