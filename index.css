@@ -197,29 +197,55 @@ h3{
 
 
 .bg-4 img{
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
 }
+
 .lada{
-  width:80%;
+  width:70%;
   margin: 0 auto;
 }
+
+
 .lada-text img{
   float: left;
+  padding-right: 20px;
+  box-shadow: -15px 15px 10px -12px black;
 
 }
-.skrt{
-  margin-left: 50px;
-  text-align:right;
-  margin-left: 100px;
 
+.lada-text {
+  text-align:justify;
+  text-justify:inter-word;
+  margin-bottom: 25%;
 }
+
 .lada-text-hoger img{
   float: right;
+  padding-left: 20px;
+  box-shadow: 15px 15px 10px -12px black;
+
 }
 .lada-text-hoger{
+
+  text-align:justify;
+  text-justify:inter-word;
   margin-top: 25%;
   margin-bottom: 25%;
+}
+.lada-text-hoger h2{
+  text-align: center;
+}
+@media (max-width: 900px) {
+  .bg-4 img{
+    width: 250px;
+    height: 250px;
+  }
+  .lada-text-hoger, .lada-text{
+    text-align:center;
+    display:block;
+  }
+ 
 
 }
 
