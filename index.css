@@ -7,8 +7,7 @@ body {
   color: #f5f6f7;
 }
 section{
-  background-color: #485461;
-  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+  background-image: linear-gradient(to right top, #191919, #1e1e1e, #222223, #272728, #2c2c2d, #2d2d2e, #2e2f30, #2f3031, #2d2e2f, #2b2c2d, #2a2b2c, #28292a);
 }
 
 
@@ -118,7 +117,7 @@ p{
 .huvud{
   min-height: 642px;
 
-  background:#181818;
+  background:#272525;
   position: relative;
   width: 100%;
   display: flex;
@@ -173,7 +172,7 @@ hr {
   border: 0;
   border-bottom: solid 2px;
   margin: 2rem 0;
-  color:black;
+  color:#dd921f;
   margin-left: 10%;
   margin-right:10%;
 }
@@ -194,7 +193,12 @@ h3{
 }
 
 .margin {margin-bottom: 45px;}
+.bg-4{
+  background-image: url('bilder/lada.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
+}
 
 .bg-4 img{
   width: 350px;
@@ -202,10 +206,19 @@ h3{
 }
 
 .lada{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+
   width:70%;
   margin: 0 auto;
-}
+  background-color: #120e0d;
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 50px; 
 
+}
+.lada p,h2{
+  color: #dd921f;
+}
 
 .lada-text img{
   float: left;
@@ -218,6 +231,8 @@ h3{
   text-align:justify;
   text-justify:inter-word;
   margin-bottom: 25%;
+  padding-bottom: 100px;
+
 }
 
 .lada-text-hoger img{
@@ -227,23 +242,26 @@ h3{
 
 }
 .lada-text-hoger{
+  padding-bottom: 100px;
 
   text-align:justify;
   text-justify:inter-word;
-  margin-top: 25%;
-  margin-bottom: 25%;
+  margin-top: 3%;
+  margin-bottom: 20%;
 }
 .lada-text-hoger h2{
   text-align: center;
 }
 @media (max-width: 900px) {
   .bg-4 img{
+    
     width: 250px;
     height: 250px;
   }
   .lada-text-hoger, .lada-text{
     text-align:center;
     display:block;
+    padding: 0;
   }
  
 
@@ -261,7 +279,6 @@ h3{
 .bg-3 img {
   width: 100%;
   height: 210px;
-
 }
 
 
