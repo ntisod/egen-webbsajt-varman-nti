@@ -11,9 +11,7 @@ section{
 }
 
 
-#section{
-  background:;
-}
+
 p{
   color: #e1ba43 ;
 }
@@ -211,9 +209,9 @@ h3{
   width:70%;
   margin: 0 auto;
   background-color: #120e0d;
-  padding-top: 30px;
-  padding-left: 30px;
-  padding-right: 50px; 
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 2.5%; 
 
 }
 .lada p,h2{
@@ -231,7 +229,7 @@ h3{
   text-align:justify;
   text-justify:inter-word;
   margin-bottom: 25%;
-  padding-bottom: 100px;
+  padding-bottom: 10%;
 
 }
 
@@ -242,7 +240,7 @@ h3{
 
 }
 .lada-text-hoger{
-  padding-bottom: 100px;
+  padding-bottom: 10%;
 
   text-align:justify;
   text-justify:inter-word;
