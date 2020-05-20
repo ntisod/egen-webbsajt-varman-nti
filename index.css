@@ -23,9 +23,6 @@ p{
     background-color: black;
     color: white;
 }
-#navbar{
-  background-color: ;
-}
 
 .brand-title {
     font-size: 20px;
@@ -46,12 +43,12 @@ p{
 .navbar-links li {
     list-style: none;
 }
-.navbar-links a:hover{
+a:hover{
   color: #EEE8AA		;
   background: #C5B358;
   box-shadow: 0 0 10px #C5B358, 0 0 40px #C5B358, 0 0 80px #C5B358;
 }
-.navbar-links a{
+a{
   padding: 15px 20px;;
   text-transform: uppercase;
   font-size: 10px;
@@ -113,7 +110,7 @@ p{
 }
 
 .huvud{
-  min-height: 642px;
+  min-height: 100vh;
 
   background:#272525;
   position: relative;
@@ -205,15 +202,12 @@ h3{
 
 .lada{
   box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
-
   width:70%;
   margin: 0 auto;
   background-color: #120e0d;
-  padding-top: 2%;
-  padding-left: 2%;
-  padding-right: 2.5%; 
-
+   
 }
+
 .lada p,h2{
   color: #dd921f;
 }
@@ -221,7 +215,7 @@ h3{
 .lada-text img{
   float: left;
   padding-right: 20px;
-  box-shadow: -15px 15px 10px -12px black;
+  box-shadow: -15px 15px 10px -10px #9a6616;
 
 }
 
@@ -236,7 +230,7 @@ h3{
 .lada-text-hoger img{
   float: right;
   padding-left: 20px;
-  box-shadow: 15px 15px 10px -12px black;
+  box-shadow: 15px 15px 10px -10px #9a6616;
 
 }
 .lada-text-hoger{
@@ -266,12 +260,20 @@ h3{
 }
 
 .bg-2 {
-  background: url('bilder/mountain.jpg');
-  min-height: 200px;
+  background: url('bilder/b2.jpg');
+  min-height: 30vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}  
+
+
+video{
+  position: absolute;
+  left: 50%; /* % of surrounding element */
+  top: 50%;
+  transform: translate(-50%, -50%); 
 }
 
 .bg-3 img {
@@ -347,3 +349,4 @@ h3{
     min-height: 400px;
   }
 }
+
