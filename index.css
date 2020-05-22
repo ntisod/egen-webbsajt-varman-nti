@@ -128,8 +128,9 @@ p{
   display: flex;
 }
 .huvud .textbox{
+
   text-align: center;
- background-image: linear-gradient(to right top, #191919, #1e1e1e, #222223, #272728, #2c2c2d, #2d2d2e, #2e2f30, #2f3031, #2d2e2f, #2b2c2d, #2a2b2c, #28292a);
+  background-image: linear-gradient(to right top, #191919, #1e1e1e, #222223, #272728, #2c2c2d, #2d2d2e, #2e2f30, #2f3031, #2d2e2f, #2b2c2d, #2a2b2c, #28292a);
   padding: 100px;
   width: 50%;
 }
@@ -166,6 +167,8 @@ p{
   width: 50%;
   background-attachment: fixed;
   background-size: cover;
+  z-index: 2;
+
 }
 #titelimg{
   background: url("bilder/varmanbild.jpg") ;
@@ -284,6 +287,7 @@ h3{
 }
 
 .bg-2 {
+  isolation: isolate;
   background: url('bilder/b2.jpg');
   min-height: 30vh;
   background-attachment: fixed;
@@ -368,3 +372,11 @@ h3{
   }
 }
 
+.darkmode-layer {
+  z-index: 0.5;
+
+}
+.darkmode-toggle{
+  z-index: 5;
+
+}
