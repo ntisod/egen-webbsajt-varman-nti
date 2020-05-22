@@ -43,20 +43,30 @@ p{
 .navbar-links li {
     list-style: none;
 }
-a:hover{
+.navbar-links a:hover, .lada a:hover{
   color: #EEE8AA		;
   background: #C5B358;
   box-shadow: 0 0 10px #C5B358, 0 0 40px #C5B358, 0 0 80px #C5B358;
 }
-a{
+.navbar-links a, .lada a{
   padding: 15px 20px;;
   text-transform: uppercase;
   font-size: 10px;
   transition: background-color 0.3s ease;
   color:#F0E68C;
 }
-
-
+.brand-title a:hover{
+  color: #7ef9ff		;
+  background: #0077be;
+  box-shadow: 0 0 10px #0077be, 0 0 40px #0077be, 0 0 80px #0077be;
+}
+.brand-title a{
+  padding: 15px 20px;;
+  text-transform: uppercase;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+  color:#0097f1;
+}
 .toggle-button {
     position: absolute;
     top: 25px;
@@ -244,7 +254,19 @@ h3{
 .lada-text-hoger h2{
   text-align: center;
 }
+
+.lada a{
+  font-size: large;
+  margin-left: 18%;
+}
+.lada-text-hoger a{
+  margin-left: 40%;
+
+}
 @media (max-width: 900px) {
+  .lada a{
+    margin: 0;
+  }
   .bg-4 img{
     
     width: 250px;
