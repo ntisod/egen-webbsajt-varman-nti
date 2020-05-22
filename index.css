@@ -277,7 +277,9 @@ h3{
     display:block;
     padding: 0;
   }
- 
+  h2{
+    font-size: 20px;
+  }
 
 }
 
@@ -291,12 +293,6 @@ h3{
 }  
 
 
-video{
-  position: absolute;
-  left: 50%; /* % of surrounding element */
-  top: 50%;
-  transform: translate(-50%, -50%); 
-}
 
 .bg-3 img {
   width: 100%;

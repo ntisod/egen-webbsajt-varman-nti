@@ -1,46 +1,33 @@
-.split {
-	height: 100%;
-	width: 50%;
-	position: fixed;
-	z-index: 1;
-	top: 0;
-	overflow-x: hidden;
-	padding-top: 20px;
-  }
-  
-  .left {
-	left: 0;
-	background-color: #111;
-  }
-  
-  .right {
-	right: 0;
-	background-color: red;
-  }
-  
-  .centered {
+#olaquehace {
+	width: 100px; height: 200px;
+	background:url("bilder/38521.jpg");
+	border-color: #000;
+	border-style: solid;
+	border-width: 2px 100px 2px 2px;
+	border-radius: 100%;
+	position: relative;
+   }
+   
+   #olaquehace:before {
+	content: "";
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
-	text-align: center;
-  }
-  
-  .centered img {
-	width: 150px;
-	border-radius: 50%;
-  }
-
-
-
-@media screen and (max-width: 900px)
-{
-		.left,.right{
-			padding:50px;
-			min-height: 400px;
-			width: 100%;
-		}
-		.container{
-			flex-direction: column;
-		}
-}
+	background: #fff;
+	border: 36px solid #000;
+	border-radius: 100%;
+	width: 28px;
+	height: 28px;
+   }
+   
+   #olaquehace:after {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	background: #000;
+	border: 36px solid #fff;
+	border-radius:100%;
+	width: 28px;
+	height: 28px;
+   }
