@@ -134,10 +134,7 @@ p{
   padding: 100px;
   width: 50%;
 }
-#textbox{
-  background-image: linear-gradient(to left, #522d54, #522d54, #522d54, #522d54, #522d54, #55305a, #583460, #5a3766, #5f3f74, #624883, #645192, #645ba1);
 
-}
 .huvud .social img{
   width: 15%;
   margin-left: 13%;
@@ -167,7 +164,6 @@ p{
   width: 50%;
   background-attachment: fixed;
   background-size: cover;
-  z-index: 2;
 
 }
 #titelimg{
@@ -378,5 +374,30 @@ h3{
 }
 .darkmode-toggle{
   z-index: 5;
+
+}
+
+#textbox{
+  background-image: linear-gradient(to right top, #000d1a, #01101f, #021323, #021528, #02172d, #011933, #001b3a, #001d40, #001f4a, #002053, #00215d, #002266);
+}
+#titelimg{
+  background: url("bilder/325425.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 0px bottom 0px;
+
+}
+#bg-4{
+  background-image: url('bilder/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+#lada{
+  background: #0b0b31;
+}
+
+#s{
+  background-image: linear-gradient(to right top, #000d1a, #01101f, #021323, #021528, #02172d, #011933, #001b3a, #001d40, #001f4a, #002053, #00215d, #002266);
 
 }
