@@ -1,0 +1,280 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font: 20px Montserrat, sans-serif;
+  line-height: 1.8;
+  color: #f5f6f7;
+}
+section{
+  background-color: #485461;
+  background-image: linear-gradient(315deg, #485461 0%, #28313b 74%);
+}
+
+
+#section{
+  background:;
+}
+p{
+  color: #e1ba43 ;
+}
+.navbar {
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+#navbar{
+  background-color: ;
+}
+
+.brand-title {
+    font-size: 20px;
+    margin: .5rem;
+}
+
+.navbar-links {
+    margin-left: 400px;
+    height: 100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links a:hover{
+  color: #EEE8AA		;
+  background: #C5B358;
+  box-shadow: 0 0 10px #C5B358, 0 0 40px #C5B358, 0 0 80px #C5B358;
+}
+.navbar-links a{
+  padding: 15px 20px;;
+  text-transform: uppercase;
+  font-size: 10px;
+  transition: background-color 0.3s ease;
+  color:#F0E68C;
+}
+
+
+.toggle-button {
+    position: absolute;
+    top: 25px;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+@media (max-width: 900px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    .navbar-links {
+        margin-left:0px;
+        display: none;
+        width: 100%;
+    }
+
+    .navbar-links ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbar-links ul li {
+        text-align: center;
+    }
+
+    .navbar-links ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbar-links.active {
+        display: flex;
+    }
+}
+
+.huvud{
+  min-height: 642px;
+
+  background:#181818;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.huvud .textbox{
+  text-align: center;
+ background-image: linear-gradient(to right top, #191919, #1e1e1e, #222223, #272728, #2c2c2d, #2d2d2e, #2e2f30, #2f3031, #2d2e2f, #2b2c2d, #2a2b2c, #28292a);
+  padding: 100px;
+  width: 50%;
+}
+#textbox{
+  background-image: linear-gradient(to left, #522d54, #522d54, #522d54, #522d54, #522d54, #55305a, #583460, #5a3766, #5f3f74, #624883, #645192, #645ba1);
+
+}
+.huvud .social img{
+  width: 15%;
+  margin-left: 13%;
+  float: left;
+  height: 60px;
+  border-radius: 50%;
+
+}
+.titel{
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+.text{
+  color: #e1ba43 ;
+  font-size: 19px;
+  font-weight: 300;
+  letter-spacing: 2px;
+}
+
+
+.huvud .titelimg{
+  background: url("bilder/mountain.jpg") ;
+  background-position: right;
+  width: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#titelimg{
+  background: url("bilder/varmanbild.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+hr {
+  border: 0;
+  border-bottom: solid 2px;
+  margin: 2rem 0;
+  color:black;
+  margin-left: 10%;
+  margin-right:10%;
+}
+h2{
+  color: black;
+}
+h3{
+  color:#a6a6a6;
+}
+
+.titelhr{
+  border: 0;
+  border-bottom: solid 2px;
+  margin: 2rem 0;
+  color:white;
+  margin-left: 25%;
+  margin-right:25%;
+}
+
+.margin {margin-bottom: 45px;}
+
+.bg-2 {
+  background: url('bilder/mountain.jpg');
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-3 img {
+  width: 100%;
+  height: 210px;
+
+}
+
+
+.container-fluid {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 0;
+  border-radius: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  letter-spacing: 5px;
+}
+
+
+
+.row {
+  margin: 8px -16;
+
+}
+
+.row,
+.row > .column {
+  padding: 8px;
+  margin-left: 10%;
+}
+
+.column {
+  float: left;
+  width: 30%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.content {
+  background-color: #3f3937;
+  padding: 10px;
+}
+
+
+
+@media screen and (max-width: 900px)
+{
+  .column
+  {
+    width: 100%;
+  }
+  .row,
+  .row > .column
+  {
+    margin-left: 0;
+  }
+  .huvud{
+    flex-direction: column;
+  }
+  .huvud .textbox,
+  .huvud .titelimg
+  {
+    width: 100%;
+    padding:50px;
+    min-height: 400px;
+  }
+}

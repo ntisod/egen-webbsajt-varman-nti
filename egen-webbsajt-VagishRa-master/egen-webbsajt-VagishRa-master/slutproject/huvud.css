@@ -1,0 +1,51 @@
+
+body {
+	color: #fff;
+	text-align:center;
+	background-color: black;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+p{
+	margin-top: 50%;
+	font-size: 50px;
+	font-style: bold;
+}
+.container {
+	width: 100;
+	display: flex;
+	min-height: 722px;
+
+}
+
+.left {
+	background: url("bilder/20200325_131309.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+.right {
+	background: url("bilder/38521.jpg");
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	padding: 1rem;
+	transition: all .2s ease-in-out;
+}
+
+@media screen and (max-width: 900px)
+{
+		.left,.right{
+			padding:50px;
+			min-height: 400px;
+			width: 100%;
+		}
+		.container{
+			flex-direction: column;
+		}
+}

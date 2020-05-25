@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang=se dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>intro till javascript</title>
+    <script src="javascript-exempel.js"></script>
+
+  </head>
+
+  <body>
+
+    <button type="button" onclick="authorDialog()">Uppgift 2</button>                                                         <!--knapp för uppgift 2-->
+
+    <button type="button" onclick="changecolor('Aqua');">ljusblå</button>                                                   <!--knapp för uppgift 3-->
+
+    <button type="button" onclick="changeImage()">Uppgift 4</button>                                                           <!--knapp för uppgift 4-->
+
+
+    <img id="bilden" src="./bild1.jpg" alt="exempel bild1" width="500" height="400" style="float: right;">                        <!-- bilden för uppgift 4-->
+
+
+    <h1 id="namn">Rubrik</h1>                                                                                                    <!-- text-stycket som ändras på uppgift 3-->
+    <p id="stycke">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+
+
+
+
+<section style="background-color: Aqua; margin-right: 1600px;">                                                                  <!--uppgift 5 och 6-->
+  <h1>Namnfråga</h1>
+  <p style="background-color: Aqua">Vad heter du?</p>
+
+  <form id="form" onsubmit="return false;">
+      <input  type="text" id="name" />
+      <input type="submit" onclick="minfunktion();">
+  </form>
+
+</section>
+
+<p id="demo"></p>                                                                                                        <!--uppgift 7-->
+
+<section class="miniräknare" style="background-color:Aqua; padding-bottom:17.5px; margin-right: 1300px;">                     <!--här följer uppgift 8 och 9-->
+      <h2 >Lite matematik</h2>
+
+<div class="plus" style="padding-top: 10px;">                                                                               <!--indata för plus-->
+  <input type="text" id="num1">
+  +
+  <input type="text" id="num2">
+
+  <button type="button"  onclick="plus()">=</button>
+  <input type="text" id="svar" value="">
+</div>
+
+<div class="minus" style="padding-top: 10px;">                                                                            <!--indata för minus-->
+  <input type="text" id="num3">
+  -
+  <input type="text" id="num4">
+
+  <button type="button"  onclick="minus()">=</button>
+  <input type="text" id="svar2" value="">
+</div>
+
+<div class="gånger" style="padding-top: 10px;">                                                                            <!--indata för multiplikation-->
+  <input type="text" id="num5">
+  x
+  <input type="text" id="num6">
+
+  <button type="button"  onclick="gånger()">=</button>
+  <input type="text" id="svar3" value="">
+</div>
+
+<div class="dela" style="padding-top: 10px;">                                                                            <!--indata för division-->
+  <input type="text" id="num7">
+  /
+  <input type="text" id="num8">
+
+  <button type="button"  onclick="dela()">=</button>
+  <input type="text" id="svar4" value="">
+</div>
+
+
+    </section>
+
+
+
+
+
+  </body>
+</html>

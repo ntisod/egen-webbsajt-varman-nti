@@ -1,0 +1,359 @@
+
+@font-face {
+    font-family: 'gang_of_threeregular';
+    src: url('../fontfile/go3v2-webfont.woff2') format('woff2'),
+    url('../fontfile/go3v2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+body{
+  display: grid;
+  font-size: 100%;
+
+}
+
+header{
+  background-image: url("../Bilder/cityone.jpg");
+  height: 270vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+
+  animation: animate 16s ease-in-out infinite;
+
+}
+
+@keyframes animate {                                                                   /*här är själva css koden för animationen av bakgrunden på sidan*/
+  0% 100%{
+    background-image: url("../Bilder/citytwo.jpg");
+  }
+  25%{
+    background-image: url("../Bilder/citythree.jpg");
+  }
+  50%{
+    background-image: url("../Bilder/cityfour.jpg");
+  }
+  75%{
+    background-image: url("../Bilder/cityone.jpg");
+  }
+
+}
+
+.navbar{                                                                            /*Här börjar all css kod angende navbaren*/
+  position: relative;
+  float: right;
+  list-style-type: none;
+  margin-top: 35px;
+  margin-right: 180px;
+}
+
+.navbar li{
+  display: inline-block;
+}
+
+.navbar li a{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  font-family: 'gang_of_threeregular', sans-serif;
+  font-size: 35px;
+  text-decoration: none;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+  margin-left: 35px
+}
+
+.navbar li a:hover{
+  background-color: #fff;
+  color: #000;
+}
+
+.navbar li.active a{
+  background-color: #fff;
+  color: #000;
+}
+
+.navbarbakgrund{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 50px;
+  width: 80rem;
+  height: 7rem;
+}
+
+.logo img{                                                                          /*Här är all css kod på bilderna till vänste om sidan*/
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  position: absolute;
+  float: left;
+  width: 150px;
+  margin-left: 220px;
+  margin-top: 25px;
+  height: auto;
+}
+
+.bildpåmig img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  position: absolute;
+  float: left;
+  width: 300px;
+  margin-left: 100px;
+  margin-top: 270px;
+  height: auto;
+}
+
+.future img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  position: absolute;
+  float: left;
+  width: 350px;
+  margin-left: 70px;
+  margin-top: 775px;
+  height: auto;
+}
+.video{
+
+  position: absolute;
+  float: left;
+  width: 350px;
+  margin-left: 70px;
+  margin-top: 1225px;
+  height: auto;
+}
+
+.container{                                                                       /* Den första lådan (bakgrund) */
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  opacity: 1;
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 250px;
+  width: 1280px;
+  height: 350px;
+  padding-left: 35px;
+  padding-top: 50px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+
+.container h1{
+  font-size: 50px;
+  color: #fff;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+
+.container h2{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+.bakgrundtext{
+  color: #fff;
+  font-size: 30px;
+}
+
+
+
+.containertwo{                                                                      /*andra lådan (Framtiden)*/
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 750px;
+  width: 1280px;
+  height: 300px;
+  padding-left: 35px;
+  padding-top: 50px;
+
+}
+
+.containertwo h2{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+.containertwo p{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.containerthree{                                                                      /*tredje lådan (Varför NTI?)*/
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 1200px;
+  width: 1280px;
+  height: 300px;
+  padding-left: 35px;
+  padding-top: 50px
+}
+
+.containerthree h2{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+.containerthree p{
+  color: #fff;
+  font-size: 30px;
+  padding-top: 20px;
+}
+
+.container35{                                                                      /*miniräknare*/
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 2300px;
+  width: 1280px;
+  height: 110px;
+  padding-left: 35px;
+  padding-top: 20px
+}
+.container35 a{
+  font-size: 35px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+.containerfour{                                                                      /*tredje lådan (5 spel)*/
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 200px;
+  margin-top: 1600px;
+  width: 300px;
+  height: 75px;
+  padding-left: 35px;
+  padding-top: 10px
+}
+
+.containerfour h2{
+  font-size: 40px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: 'gang_of_threeregular', sans-serif;
+}
+
+.spel{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 900px;
+  margin-right: 100px;
+  margin-top: 1600px;
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.spel img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  height: 220px;
+  width: 280px;
+}
+
+.speltwo{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 1350px;
+  margin-right: 100px;
+  margin-top: 1600px;
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.speltwo img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  height: 220px;
+  width: 280px;
+}
+
+.spelthree{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 1350px;
+  margin-right: 100px;
+  margin-top: 1950px;
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.spelthree img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  height: 200px;
+  width: 280px;
+}
+
+.spelfour{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 900px;
+  margin-right: 100px;
+  margin-top: 1950px;
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.spelfour img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  height: 220px;
+  width: 280px;
+}
+
+.spelfive{
+  position: absolute;
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  background-color: #500e82;
+  margin-left: 450px;
+  margin-right: 100px;
+  margin-top: 1750px;
+  width: 300px;
+  height: 300px;
+  padding-left: 20px;
+  padding-top: 20px
+}
+.spelfive img{
+  box-shadow: 0 0 1rem 0 rgba(0,0,0,2);
+  height: 200px;
+  width: 280px;
+}
+
+
+
+
+.spel a, .speltwo a, .spelthree a, .spelfour a, .spelfive a{
+  font-size: 30px;
+  color: #fff;
+  padding-top: 10px;
+}
