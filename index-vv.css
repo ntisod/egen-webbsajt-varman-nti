@@ -166,6 +166,10 @@ p{
   background-size: cover;
 
 }
+.titelimg{
+  z-index: 2;
+}
+
 #titelimg{
   background: url("bilder/varmanbild.jpg") ;
   background-repeat: no-repeat;
@@ -369,7 +373,7 @@ h3{
 }
 
 .darkmode-layer {
-  z-index: 0.5;
+  z-index: 1;
 
 }
 .darkmode-toggle{
@@ -417,4 +421,10 @@ h3{
 #s{
   background-image: linear-gradient(to right top, #000d1a, #01101f, #021323, #021528, #02172d, #011933, #001b3a, #001d40, #001f4a, #002053, #00215d, #002266);
 
+}
+
+
+img{
+  position: relative;
+  z-index: 2;
 }
