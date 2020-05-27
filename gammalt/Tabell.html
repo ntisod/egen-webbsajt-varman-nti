@@ -4,125 +4,193 @@
     <meta charset="utf-8">
     <title>tabell</title>
     <style>
-        table {border-style: ridge;  border-width: 150px; border-color: #ff7e54; background-color: #ffd195;}
-        th  {border:5px solid #3c3642}
-        td {border:20px groove #5d9b84;}
+table.blueTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+table.blueTable td, table.blueTable th {
+  border: 6px solid #FFD27F;
+  padding: 3px 2px;
+}
+table.blueTable tbody td {
+  font-size: 15px;
+}
+table.blueTable tr:nth-child(even) {
+  background: #00FF7F;
+}
+table.blueTable thead {
+  background: #00FF7F;
+  background: -moz-linear-gradient(top, #40ff9f 0%, #19ff8b 66%, #00FF7F 100%);
+  background: -webkit-linear-gradient(top, #40ff9f 0%, #19ff8b 66%, #00FF7F 100%);
+  background: linear-gradient(to bottom, #40ff9f 0%, #19ff8b 66%, #00FF7F 100%);
+  border-bottom: 2px solid #444444;
+}
+table.blueTable thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #444444;
+  border-left: 2px solid #D0E4F5;
+}
+table.blueTable thead th:first-child {
+  border-left: none;
+}
+
+table.blueTable tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #FFFFFF;
+  background: #D0E4F5;
+  background: -moz-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: -webkit-linear-gradient(top, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  background: linear-gradient(to bottom, #dcebf7 0%, #d4e6f6 66%, #D0E4F5 100%);
+  border-top: 2px solid #444444;
+}
+table.blueTable tfoot td {
+  font-size: 14px;
+}
+table.blueTable tfoot .links {
+  text-align: right;
+}
+table.blueTable tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
       </style>
   </head>
   <body>
-    <thead>
-        <th>Vad</th>
-        <th>När</th>
-        <th>Var</th>
-        <th>Vem</th>
-        <th>Hur</th>
-        <th>Varför</th>
-        <th>Sammanfattning</th>
-    </thead>
-    
-    <table>
-
+    <table class="blueTable">
+        <thead>
+        <tr>
+        <th>Internets F&ouml;delse </th>
+        <th>1969 </th>
+        <th>Sydv&auml;sta USA </th>
+        <th>USAs milit&auml;r </th>
+        <th>Sammankoppling av datorer i olika st&auml;der </th>
+        <th>F&ouml;r snabbare kommunikation mellan datorer </th>
+        <th>&nbsp;</th>
+        <th>internet skapades 1969 genom att koppla samman datorer till ett n&auml;tverk, och meningen med internet var att kunna kommunicera mellan datorer. Det var USA s milit&auml;r som skapade internet.<br /><br /></th>
+        </tr>
+        </thead>
+        <tfoot>
+        <tr>
+        <td colspan="7">
+        </td>
+        </tr>
+        </tfoot>
         <tbody>
-            <tr>
-                <td>Internets Födelse</td>
-                <td>1969</td>
-                <td>Sydvästa USA</td>
-                <td>USAs militär</td>
-                <td>Sammankoppling av datorer i olika städer</td>
-                <td>För snabbare kommunikation mellan datorer</td>
-                <td>internet skapades 1969 genom att koppla samman datorer till ett nätverk, och meningen med internet var att kunna kommunicera mellan datorer. Det var USA s militär som skapade internet.</td>
-
-
-            </tr>
-            <tr>
-                <td>WWW:S födelse</td>
-                <td>1989</td>
-                <td>CERN i Schweiz</td>
-                <td>Sir Tim Berners-Lee</td>
-                <td>Skapade HTML</td>
-                <td>Snabbare att hitta till källor till texten via hyperlänkar.</td>
-            </tr>
-            <tr>
-                <td>Google</td>
-                <td>1998</td>
-                <td>Menlo Park, Kalifornien, USA</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>TCP/IP</td>
-                <td>1970-talet</td>
-                <td>Arlington Virgina</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Sociala media (Facebook)</td>
-                <td>2004</td>
-                <td>Cambridge, Massachusetts, USA</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Webbaserade spel (Yahoo! Games)</td>
-                <td>Runt 2000</td>
-                <td>Sunnyvale, California, USA</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Sveriges första Internetanslutning</td>
-                <td>1984</td>
-                <td>Chalmers Universitet, Göteborg</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Surfplattor (Apple)</td>
-                <td>Runt 2000</td>
-                <td>Cupertino, Kalifornien, USA</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>GDPR</td>
-                <td>2018</td>
-                <td>EU</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Netscape Navigator</td>
-                <td>1994</td>
-                <td>Dulles, Virgina, USA</td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>Piratpartiet</td>
-                <td>2006</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
-            <tr>
-                <td>E-post</td>
-                <td>1970-talet</td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+        <tr>
+        <td>WWW:S f&ouml;delse </td>
+        <td>1989</td>
+        <td>CERN i Schweiz </td>
+        <td>Sir Tim Berners-Lee </td>
+        <td>Skapade HTML </td>
+        <td>&nbsp;</td>
+        <td>Snabbare att hitta till k&auml;llor till texten via hyperl&auml;nkar.<br /><br /></td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Google </td>
+        <td>1998 </td>
+        <td>Menlo Park, Kalifornien, USA </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>TCP/IP </td>
+        <td>1970-talet </td>
+        <td>Arlington Virgina </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Sociala media (Facebook) </td>
+        <td>2004</td>
+        <td>Cambridge, Massachusetts, USA </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Webbaserade spel (Yahoo! Games) </td>
+        <td>Runt 2000 </td>
+        <td>Sunnyvale, California, USA </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Sveriges f&ouml;rsta Internetanslutning </td>
+        <td>1984</td>
+        <td>Chalmers Universitet, G&ouml;teborg </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Surfplattor (Apple) </td>
+        <td>Runt 2000 </td>
+        <td>Cupertino, Kalifornien, USA </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>GDPR </td>
+        <td>2018</td>
+        <td>EU</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Netscape Navigator</td>
+        <td>1994</td>
+        <td>Dulles, Virgina, USA </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Piratpartiet</td>
+        <td>2006</td>
+        <td>cell3_10</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>E-post </td>
+        <td>1970-talet </td>
+        <td>cell3_11</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
+        <tr>
+        <td>Sveriges f&ouml;rsta Internetanslutning</td>
+        <td>1984 </td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        <td>.</td>
+        </tr>
         </tbody>
-    </table>
+        </table>
   </body>
 </html>
