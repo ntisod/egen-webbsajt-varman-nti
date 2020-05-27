@@ -396,7 +396,24 @@ h3{
 #lada{
   background: #0b0b31;
 }
+#lada1{
+  background: #0b0b31;
 
+}
+#lada2{
+  background: #0b0b31;
+
+}
+#bg-41{
+  background-image: url('bilder/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#bg-42{
+  background-image: url('bilder/pawel-czerwinski-bX9B9c-YasY-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 #s{
   background-image: linear-gradient(to right top, #000d1a, #01101f, #021323, #021528, #02172d, #011933, #001b3a, #001d40, #001f4a, #002053, #00215d, #002266);
 
