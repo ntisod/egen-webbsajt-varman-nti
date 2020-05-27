@@ -6,6 +6,7 @@ toggleButton.addEventListener('click', () => {
 })
 
 const option  = {
+  
   bottom: '64px', // default: '32px'
   right: 'unset', // default: '32px'
   left: '32px', // default: 'unset'
@@ -17,6 +18,7 @@ const option  = {
   saveInCookies: false, // default: true,
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
+
 }
 
 new Darkmode (option).showWidget();
