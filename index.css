@@ -1,4 +1,4 @@
-html, body, section {
+html, body, div {
 	height: 100%;
 }
 body {
@@ -23,7 +23,7 @@ div {
 	background: linear-gradient(rgba(0, 0, 0, 0.85), 
 rgba(255, 255, 225, 0.10)), url("bilder/20200325_131309.jpg");
 	background-size: cover;
-	background-position: center;
+	background-position: right 35% bottom 20%;
 	flex: 1;
 	padding: 1rem;
 	transition: all .2s ease-in-out;
@@ -42,11 +42,11 @@ rgba(164, 222, 102, 0.10)), url("bilder/francesco-ungaro-DlyYo9QQEg0-unsplash.jp
 	transform: scale(0.95);
 }
 
-.xop-left h1 {
+.xop-left h2 {
 	font-family: 'Rock Salt', cursive;
 	font-size: 6rem;
 }
-.xop-right h1 {
+.xop-right h2 {
 	font-family: 'Pacifico', cursive;
 	font-size: 6rem;
 }
