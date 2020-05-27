@@ -8,7 +8,7 @@ function authorDialog(){                                                       /
 
 function changecolor(color){                                                  //uppgift 3
        document.getElementById('stycke').style.backgroundColor = color;
-       document.getElementById("namn").innerHTML = "Vagish";
+       document.getElementById("namn").innerHTML = "Varman";
    }
 
 function changeImage() {                                                      //uppgift 4
