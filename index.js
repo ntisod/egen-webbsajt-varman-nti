@@ -18,6 +18,7 @@ const option  = {
   saveInCookies: false, // default: true,
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
+  
 
 }
 
