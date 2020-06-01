@@ -428,3 +428,25 @@ img{
   position: relative;
   z-index: 2;
 }
+
+@media screen and (max-width: 900px){
+  .bg-4{
+    background-image: url('bilder/mobil3.jpg');
+  }
+  .titelimg{
+    background-image: url('bilder/mobil2.jpg');
+  }
+  .bg-2{
+    background-image: url('bilder/mobil4.jpg');
+  }
+
+
+  #bg-41,#bg-42,#bg-4{
+    background-image: url('bilder/mobil1.jpg');
+
+  }
+  #titelimg{
+    background-image: url('bilder/mobil5.jpg');
+  }
+
+}
