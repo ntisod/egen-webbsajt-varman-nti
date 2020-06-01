@@ -85,39 +85,6 @@ p{
     border-radius: 10px;
 }
 
-@media (max-width: 900px) {
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-    }
-
-    .toggle-button {
-        display: flex;
-    }
-
-    .navbar-links {
-        margin-left:0px;
-        display: none;
-        width: 100%;
-    }
-
-    .navbar-links ul {
-        width: 100%;
-        flex-direction: column;
-    }
-
-    .navbar-links ul li {
-        text-align: center;
-    }
-
-    .navbar-links ul li a {
-        padding: .5rem 1rem;
-    }
-
-    .navbar-links.active {
-        display: flex;
-    }
-}
 
 .huvud{
   min-height: 100vh;
@@ -266,25 +233,6 @@ h3{
   margin-left: 40%;
 
 }
-@media (max-width: 900px) {
-  .lada a{
-    margin: 0;
-  }
-  .bg-4 img{
-    
-    width: 250px;
-    height: 250px;
-  }
-  .lada-text-hoger, .lada-text{
-    text-align:center;
-    display:block;
-    padding: 0;
-  }
-  h2{
-    font-size: 20px;
-  }
-
-}
 
 .bg-2 {
   isolation: isolate;
@@ -349,28 +297,6 @@ h3{
 
 
 
-@media screen and (max-width: 900px)
-{
-  .column
-  {
-    width: 100%;
-  }
-  .row,
-  .row > .column
-  {
-    margin-left: 0;
-  }
-  .huvud{
-    flex-direction: column;
-  }
-  .huvud .textbox,
-  .huvud .titelimg
-  {
-    width: 100%;
-    padding:50px;
-    min-height: 400px;
-  }
-}
 
 .darkmode-layer {
   z-index: 1;
@@ -429,7 +355,7 @@ img{
   z-index: 2;
 }
 
-@media screen and (max-width: 900px){
+@media (min-width: 320px) and (max-width: 480px){
   .bg-4{
     background-image: url('bilder/mobil3.jpg');
   }
@@ -439,14 +365,122 @@ img{
   .bg-2{
     background-image: url('bilder/mobil4.jpg');
   }
-
-
+  #titelimg{
+    background-image: url('bilder/mobil5.jpg');
+  }
+  .column
+  {
+    width: 100%;
+  }
+  .row,
+  .row > .column
+  {
+    margin-left: 0;
+  }
+  .huvud{
+    flex-direction: column;
+  }
+  .huvud .textbox,
+  .huvud .titelimg
+  {
+    width: 100%;
+    padding:50px;
+    min-height: 400px;
+  }
+  .lada a{
+    margin: 0;
+  }
   #bg-41,#bg-42,#bg-4{
     background-image: url('bilder/mobil1.jpg');
 
   }
-  #titelimg{
-    background-image: url('bilder/mobil5.jpg');
+  .bg-4 img{
+    width: 230px;
+    height: 230px;
+  }
+  .lada-text-hoger, .lada-text{
+    text-align:center;
+    display:block;
+    padding: 0;
+  }
+  h2{
+    font-size: 20px;
+  }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+  .toggle-button {
+      display: flex;
   }
 
+  .navbar-links {
+      margin-left:0px;
+      display: none;
+      width: 100%;
+  }
+
+  .navbar-links ul {
+      width: 100%;
+      flex-direction: column;
+  }
+
+  .navbar-links ul li {
+      text-align: center;
+  }
+
+  .navbar-links ul li a {
+      padding: .5rem 1rem;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1024px){
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.toggle-button {
+    display: flex;
+}
+
+.navbar-links {
+    margin-left:0px;
+    display: none;
+    width: 100%;
+}
+
+.navbar-links ul {
+    width: 100%;
+    flex-direction: column;
+}
+
+.navbar-links ul li {
+    text-align: center;
+}
+
+.navbar-links ul li a {
+    padding: .5rem 1rem;
+}
+
+.navbar-links.active {
+    display: flex;
+}
+.brand-title{
+  margin-left: 45%;
+}
+
+
+.lada-text img, .lada-text-hoger img{
+  width: 250px;
+  height: 250px;
+ 
+}
 }
